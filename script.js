@@ -1,7 +1,7 @@
 function firstNonRepeatedChar(str) {
  const charCount = {};
 
-  // Count each character's frequency
+  
   for (let char of str) {
     charCount[char] = (charCount[char] || 0) + 1;
   }
